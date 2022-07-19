@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* banner//// */
+
+
+.container{
+    width: 990px;
+    height: 450px;
+    background: #161616;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-info{
+    width: 50%;
+    color: aliceblue;
+}
+.banner-img >img{
+    margin-top: 55px;
+    height: 400px;
+}
+.banner-info> h1{
+font-weight: 700;
+font-size: 45px;
+/* line-height: 56px; */
+padding-top: 10px ;
+margin-bottom: 0;
+color: #FFF;
+}
+.banner-info>p{
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.btn{
+   
+    padding: 12px 28px;
+    background-color: #e6d223;
+
+}
+.btn:hover{
+    background-color: #90820a;
+}
+
+.watch-btn a{
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+/* .....2nd container... */
+
+.container2{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 15px;
+
+}
+.transfer{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-left: 18%;
+}
+.blog{
+    width: 200px;
+    height: 220px;
+    background-color: #000;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-left: 70%;
+   
+}
+
+.blog >a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.blog-info{
+    padding: 10px 15px;
+} 
+.blog-info p{
+    font-size: 10px;
+    font-weight: bold;
+} 
+.blog-info >a{
+    font-size: 10px;
+    padding: 2px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.transfer-live{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(215, 205, 205);
+    border-radius: 10px;
+}
+.blog-img>img{
+    width: 250px;
+    height: 150px;
+    padding-bottom: 20px ;
+}
+.icon a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    
+}
