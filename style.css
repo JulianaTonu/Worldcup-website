@@ -142,3 +142,28 @@ grid-gap: 15px;
     align-items: center;
     
 }
+
+/* ////footer/// */
+footer{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background: #161616;
+    padding-top: 5px;
+    margin-top: 6%;
+}
+.goal>h4 {
+
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+a {
+
+    text-decoration: none;
+    color:  #B9B9B9;
+    font-size: 12px;
+    padding: 0 10px;
+
+}
