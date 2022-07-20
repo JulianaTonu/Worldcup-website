@@ -57,7 +57,9 @@ color: #FFF;
 
 }
 .btn:hover{
-    background-color: #90820a;
+    background-color: #0b0b0b;
+    color: #e6d223;
+    border: 1px solid #e6d223;
 }
 
 .watch-btn a{
