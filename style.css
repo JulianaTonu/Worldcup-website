@@ -114,12 +114,14 @@ grid-gap: 15px;
     text-decoration: none;
     color: black;
     background-color: white;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 10px;
     margin: 10px;
 }
 
-
+.blog>a:hover{
+    color: #8e8214;
+}
 
 
 .blog-info{
@@ -136,6 +138,7 @@ grid-gap: 15px;
     text-decoration: none;
     
 }
+
 
 .transfer-live{
     width: 250px;
