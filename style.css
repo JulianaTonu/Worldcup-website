@@ -104,6 +104,9 @@ grid-gap: 15px;
     margin: 10px;
 }
 
+
+
+
 .blog-info{
     padding: 10px 15px;
 } 
@@ -145,6 +148,36 @@ grid-gap: 15px;
 .view-btn{
         display: none;
     }
+
+    /* ////////// 
+    Extra container
+    /////////////////// */
+.extr
+    .match{
+        width: 250px;
+        height: 200px;
+        /* background: yellow; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        border: 1px solid rgb(217, 214, 214);
+    }
+.flag{
+    display: flex;
+    padding-top: 5px ;
+    margin-top: 8px;
+   
+}
+.flag>img{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.country{
+    margin-top: 0px;
+}
 
 /* ////footer/// */
 footer{
