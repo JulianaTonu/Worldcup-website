@@ -17,7 +17,6 @@
     .match{
         width: 250px;
         height: 200px;
-        /* background: yellow; */
         display: flex;
         align-items: center;
         text-align: center;
@@ -57,7 +56,45 @@ margin-left: 18%;
     font-size: 13px;
 }
 
+/* mobile.... */
 
+@media screen and (max-width:688px){
+
+    .container{
+width: 85%;
+height:680px;
+display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+grid-template-columns: repeat(1,1fr);
+flex-direction: column;
+    }
+    .extra-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+        margin-right: 120px;
+    }
+    .blog{
+        width: 200px;
+        height: 220px;
+        background: #FFF;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 30px;
+        margin-left: 25%;
+       
+    }
+    .blog>a{
+        border: 1px solid 
+        #E8E8E8;
+    }
+  
+  
+}
 
 
 </style>
