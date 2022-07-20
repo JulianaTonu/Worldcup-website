@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Handlee&family=Lobster+Two&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -179,10 +181,14 @@ footer{
 }
 .goal>h4 {
 
+    font-family: 'Lobster ';
     font-size: 30px;
     line-height: 10px;
     font-weight: 500;
     color: #fff;
+}
+.footer-info>a{
+    font-family: 'Lobster '
 }
 a {
 
@@ -193,12 +199,15 @@ a {
 
 }
 
-.s-icon{
+.s-icon>a{
     
     line-height: 50px;
     font-size: 20px;
     color: #B9B9B9;
     text-align: center;
+}
+.s-icon>a:hover{
+    color: #e6d223;
 }
 i{
     padding-left: 15px;
@@ -279,17 +288,19 @@ flex-direction: column;
         display: none;
     }
     footer{
-
         height: 300px;
         padding-bottom: 10px;
        
     }
     .footer-info {
-display: flex;
-text-align: center;
-flex-direction: column;
-gap: 10px;
-padding-top: 10px;
+       display: flex;
+       text-align: center;
+       flex-direction: column;
+       gap: 10px;
+       padding-top: 10px;
+    }
+    .goal>h{
+        font-family: 'Lobster Two', cursive;
 
     }
 }
