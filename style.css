@@ -148,13 +148,9 @@ grid-gap: 15px;
     align-items: center;
     
 }
-.view-btn{
-        display: none;
-    }
 
-    /* ////////// 
-    Extra container
-    /////////////////// */
+
+    
 
 
 /* ////footer/// */
@@ -195,7 +191,7 @@ i{
 /* ..........///
 Mobile Device
 ............../// */
-@media screen and (max-width:688px) {
+@media screen and (max-width:767px) {
 
     .container{
 width: 85%;
@@ -264,7 +260,7 @@ flex-direction: column;
         grid-template-columns: repeat(1,1fr);
         grid-gap: 30px;
     }
-    .view-btn{
+    .last-btn{
         display: none;
     }
     footer{
@@ -282,13 +278,19 @@ padding-top: 10px;
 
     }
 }
+/* desktop */
+@media only screen and  (min-width: 1024px ){
+    .All-btn{
+display: none;
+    }
+}
 /* .....................
 Tablet
 ........... */
 
 
     
-@media only screen and  (min-width: 689px )and (max-width:992px){
+@media only screen and  (min-width: 768px )and (max-width:1023px){
 .container{
     width: 700px;
     height: 380px;
@@ -338,11 +340,23 @@ font-size: 35px;
     display: none;
     
 }
-.view-btn{
-    margin-top: 10px;
+.All-btn{
     text-align: center;
 }
-.view-btn a{
+.btn{
+   
+   
+    position: relative;
+    padding: 12px 10px;
+    background-color: #e6d223;
+    border-radius: 5px;
+    margin-top: 20%;
+    align-items: center;
+    
+    
+}
+.All-btn a{
+    text-align: center;
     color: #000;
     font-weight: bold;
     
