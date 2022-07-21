@@ -265,15 +265,14 @@ flex-direction: column;
         width: 200px;
         height: 220px;
         background: #FFF;
-        display:flex ;
-        align-items: center;
-        justify-content: center;
+       display: inline-flex;
         flex-direction: column;
         border-radius: 30px;
         margin-left: 15%;
        
     }
-    .blog>a{
+    
+    .blog>btn2{
         border: 1px solid 
         #E8E8E8;
     }
@@ -338,7 +337,8 @@ font-size: 35px;
 .container2{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    grid-gap: 15px;}
+    grid-gap: 15px;
+}
 .blog{
     width: 50px;
     height: 50px;
@@ -356,9 +356,11 @@ font-size: 35px;
     #E8E8E8;
     padding-left: 30px;
 }
+.container2 
 .transfer{
-    text-align: center;
+    text-align: justify;
     margin-left: 1%;
+    margin: 0 auto;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 30px;
 }
